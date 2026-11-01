@@ -4,21 +4,24 @@
         <meta charset="utf-8">
         <title>Tabs</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <div class="wrapper">
 
         <header class="site-header">
-        <h1>Using Lists for Navigation: Tab Navigation</h1>
-<code>display: flex</code>
+        <h1 class="main-text">Using Lists for Navigation: Tab Navigation</h1>
+<code class="display main-text">display: flex</code>
             
             <nav>
                 <ul class="site-links">
             <li><a href="" class="site-link current-page">Home</a></li>
             <li><a href="" class="site-link">Fruits</a></li>
             <li><a href="" class="site-link">Vegtables</a></li>
-            <li><a href="" class="site-link">Deserts</a></li>
+            <li><a href="" class="site-link diff-page">Deserts</a></li>
             <li><a href="" class="site-link">About</a></li>
             
             </ul>
@@ -27,7 +30,7 @@
 
 
         <main class="site-main">
-<h2>Use <code>display: flex</code> to create equal width anchor links that look like tabs.</h2>
+<h2 class="text-page">Use <code>display: flex</code> to create equal width anchor links that look like tabs.</h2>
 
 <p>With flexbox, you need a "flex container" to lay out the children. In this case, the flex container is the unordered list element, and the children are the list item elements, so the semantic structure of your menu is ready for flexbox without anything else needed in the markup! No <code>div</code> tags required.</p>
 

@@ -1,9 +1,11 @@
 html{
     background-color: rgb(255, 199, 242);
+    font-family: "Questrial", sans-serif;
 }
 
 code {
     background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
 }
 
 .site-header {
@@ -50,9 +52,26 @@ border-radius: 10px 10px 0 0;
 .current-page {
     background-color: rgb(255, 254, 234) ;
     color:rgb(255, 108, 206) ;
+    
 }
 
 .wrapper {
     max-width: 600px;
     margin: 0 auto;
+}
+
+.display {
+   vertical-align: 100%;
+}
+
+.diff-page {
+   background-color: rgb(232, 121, 42);
+}
+
+.text-page {
+    color: rgb(109, 182, 35);
+}
+
+.main-text {
+    color: beige;
 }
